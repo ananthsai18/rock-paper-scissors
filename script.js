@@ -27,10 +27,12 @@ function playGame(a) {
   }
   localStorage.setItem("Scores", JSON.stringify(count));
   document.querySelector(".js-result").innerHTML = result;
-  document.querySelector(
-    ".js-move"
-  ).innerHTML = ` You <img class="imgi" src="./images/${userOption}-emoji.png" alt="userchoice" />
-        <img class="imgi" src="./images/${computerChoice}-emoji.png" alt="computer choice" /> Computer`;
+ document.querySelector(".js-move").innerHTML = 
+  `You 
+   <img class="imgi" src="./images/${userOption.toLowerCase()}-emoji.png" alt="userchoice" />
+   <img class="imgi" src="./images/${computerChoice.toLowerCase()}-emoji.png" alt="computer choice" /> 
+   Computer`;
+
   updatescore();
 }
 function updatescore() {
