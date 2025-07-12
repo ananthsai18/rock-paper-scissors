@@ -7,6 +7,7 @@ This project was built as a **hands-on practice** to learn and explore the **Doc
 ## 🔗 Live Demo
 
 👉 [Click here to play Rock Paper Scissors](https://ananthsai18.github.io/rock-paper-scissors/)
+ananthsai18.github.io/rock-paper-scissors/
 ---
 
 ## 🎯 Purpose
