@@ -4,6 +4,10 @@ Welcome to my **Rock Paper Scissors** game!
 This project was built as a **hands-on practice** to learn and explore the **Document Object Model (DOM)** in JavaScript.
 
 ---
+## 🔗 Live Demo
+
+👉 [Click here to play Rock Paper Scissors](https://ananthsai18.github.io/rock-paper-scissors/)
+---
 
 ## 🎯 Purpose
 
