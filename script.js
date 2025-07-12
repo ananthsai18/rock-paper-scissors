@@ -29,7 +29,7 @@ function playGame(a) {
   document.querySelector(".js-result").innerHTML = result;
   document.querySelector(
     ".js-move"
-  ).innerHTML = ` You <img class="imgi" src="./images/${userOption}-emoji.png alt="userchoice" />
+  ).innerHTML = ` You <img class="imgi" src="./images/${userOption}-emoji.png" alt="userchoice" />
         <img class="imgi" src="./images/${computerChoice}-emoji.png" alt="computer choice" /> Computer`;
   updatescore();
 }
